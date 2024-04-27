@@ -39,9 +39,10 @@
             android:layout_width="128dp"
             android:layout_height="128dp"
             android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tvBanner"
-            app:srcCompat="@drawable/ic_launcher_background"
-            tools:layout_editor_absoluteX="142dp" />
+            app:srcCompat="@drawable/ic_launcher_background" />
 
         <ImageView
                 android:id="@+id/imageView"
